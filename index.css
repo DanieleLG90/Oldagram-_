@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    padding: 20px 0;
+    padding: 15px 0;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid darkgray;
@@ -26,14 +26,12 @@ header img {
 */
 
 .logo {
-    width: 40%;
-    object-fit: contain;
+    width: 100px;
 }
 
 .user-img{
-    height: 50px;
+    width: 32px;
     margin: auto 0px;
     margin-right: 5px;
-    object-fit: cover;
     border-radius: 50%;
 }

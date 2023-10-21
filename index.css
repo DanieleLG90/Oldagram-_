@@ -39,7 +39,7 @@ header {
     margin-top: 10px;
 }
 
-span{
+.avatar-info span{
     display: block;
     font-size: 14px;
 }
@@ -61,5 +61,11 @@ span{
 .icon2,
 .icon3{
     width: 25px;
-    padding: 5px;
+    padding: 3px;
+}
+
+.icon-active:hover,
+.icon-active:focus{
+    /*width: 28px;*/
+    opacity: 60%;
 }

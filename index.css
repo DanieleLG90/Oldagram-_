@@ -10,28 +10,56 @@ html, body {
 body {
     width: 500px;
     margin: 0 auto;
+    border: 2px solid darkgray;
 }
 
 header {
-    padding: 15px 0;
+    padding: 8px 0;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid darkgray;
 }
-/*
-header img {
-    width: 100px;
-    object-fit: contain;
-}
-*/
 
 .logo {
-    width: 100px;
+    width: 130px;
+    margin-left: 10px;
 }
 
-.user-img{
+.user-img,
+.avatar{
     width: 32px;
     margin: auto 0px;
-    margin-right: 5px;
+    margin-right: 10px;
     border-radius: 50%;
+}
+
+.post-header{
+    margin-left: 8px;
+    display: flex;
+    margin-top: 10px;
+}
+
+span{
+    display: block;
+    font-size: 14px;
+}
+
+.avatar-name{
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.post-picture{
+    width: 100%;
+    margin-top: 15px;
+}
+
+.icon{
+    margin:10px 0px 0px 4px
+}
+.icon1,
+.icon2,
+.icon3{
+    width: 25px;
+    padding: 5px;
 }

@@ -5,6 +5,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -18,6 +19,9 @@ header {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid darkgray;
+}
+.post{
+    margin-bottom: 10px;
 }
 
 .logo {
@@ -54,9 +58,14 @@ header {
     margin-top: 15px;
 }
 
-.icon{
+.post-footer{
     margin:10px 0px 0px 4px
 }
+
+.icon{
+    margin-bottom: 6px;
+}
+
 .icon1,
 .icon2,
 .icon3{
@@ -68,4 +77,18 @@ header {
 .icon-active:focus{
     /*width: 28px;*/
     opacity: 60%;
+}
+
+.likes{
+    
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.comment{
+    margin: 8px 0;
+}
+
+.username{
+    font-weight: bold;
 }

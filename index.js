@@ -32,12 +32,10 @@ const posts = [
 let postElm = document.getElementById ("post-elm")
 let likesElm = document.getElementById ("likes-elm")
 
-likesElm.innerHTML = 21
+likesElm = 21
 
 postElm.addEventListener("dblclick", function () {
-    console.log("hello")
-    let addLikes = likesElm + 1
-    
-
-    
+    let addLikes = likesElm += 1
+    likesElm.innerHTML = addLikes + " likes"
+    console.log (likesElm + " likes")  
 })

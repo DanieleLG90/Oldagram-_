@@ -37,5 +37,4 @@ let totalLikes = 21
 postElm.addEventListener("dblclick", function () {
     let addLikes = totalLikes += 1
     likesElm.textContent = addLikes + " likes"
-    console.log (addLikes + " likes")
 })
